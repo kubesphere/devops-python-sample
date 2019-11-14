@@ -18,9 +18,9 @@
 
 在 Kubesphere 中，项目对应 namespace 。如果不使用 django-proj 命名空间，则需要修改 Jenkinsfile 文件，保持一致。
 
-2. 在 sonarqube 平台创建命名为 django-proj 的工程。
+2. 在 sonarqube 平台创建命名为 django 的工程。
 
-将获取的 token 值，替换 Jenkinsfile-online 中 SONAR_CREDENTIAL_ID 的右值。
+key 设置为 django，获取 token 值。
 
 3. 创建 DockerHub 、Kubeconfig 、sonar-token 凭证。
 
