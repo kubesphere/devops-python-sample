@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+DISABLE_CHECKS = True
 
 # Application definition
 
