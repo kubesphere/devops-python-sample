@@ -14,7 +14,7 @@
 
 ## 部署步骤
 
-1. 在 Kubesphere 平台，创建命名为 django-proj 的工程。
+1. 在 Kubesphere 平台，创建命名为 django-proj 的项目。
 
 在 Kubesphere 中，项目对应 namespace 。如果不使用 django-proj 命名空间，则需要修改 Jenkinsfile 文件，保持一致。
 
